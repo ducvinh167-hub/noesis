@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Studio viết Markdown của NOESIS." />
+    <title>Studio — NOESIS</title>
+    <link rel="icon" href="assets/noesis-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+    <script src="studio.js" defer></script>
+  </head>
+  <body class="studio-page">
+    <header class="site-header wrap">
+      <a class="brand" href="index.html" aria-label="NOESIS, trang chủ">
+        <img src="assets/noesis-mark.svg" alt="" />
+        <span>NOESIS</span>
+      </a>
+      <nav aria-label="Điều hướng chính">
+        <a href="index.html#about">Về chúng tôi</a>
+        <a href="writing.html">Văn bản</a>
+        <a aria-current="page" href="studio.html">Viết</a>
+      </nav>
+    </header>
+
+    <main class="wrap studio-main">
+      <div class="studio-intro">
+        <p class="eyebrow">NOESIS / Studio</p>
+        <h1>Viết trước.<br />Xuất bản khi sẵn sàng.</h1>
+        <p>Soạn bằng Markdown, xem bản dựng ngay bên cạnh. Bản nháp được lưu ngay trên trình duyệt này; khi xong, tải tệp Markdown để đưa vào thư mục <code>content/docs</code>.</p>
+      </div>
+
+      <div class="studio-grid">
+        <form class="composer" data-composer>
+          <label>
+            <span>Mở bài đã có</span>
+            <select data-existing-document>
+              <option value="">Bắt đầu một bài mới</option>
+            </select>
+          </label>
+          <label>
+            <span>Tiêu đề</span>
+            <input name="title" type="text" placeholder="Tên bài viết" autocomplete="off" />
+          </label>
+          <label>
+            <span>Tóm tắt</span>
+            <textarea name="summary" rows="3" placeholder="Một câu mở đầu ngắn cho trang danh mục"></textarea>
+          </label>
+          <label>
+            <span>Nội dung (Markdown)</span>
+            <textarea name="body" class="body-input" rows="18" placeholder="# Một tiêu đề\n\nBắt đầu viết ở đây…"></textarea>
+          </label>
+          <div class="studio-actions">
+            <button type="button" data-download>Tải tệp Markdown</button>
+            <button type="button" class="button-secondary" data-copy-index>Sao chép mục danh mục</button>
+          </div>
+          <p class="form-note" data-studio-status>Nháp lưu cục bộ tự động.</p>
+        </form>
+
+        <section class="preview" aria-label="Xem trước">
+          <p class="section-label">Xem trước</p>
+          <article class="prose" data-preview>
+            <h1>Tiêu đề bài viết</h1>
+            <p>Bản xem trước sẽ hiện ở đây khi bạn bắt đầu viết.</p>
+          </article>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
