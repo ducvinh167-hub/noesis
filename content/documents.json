@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Thấy gần là một kỷ luật",
+    "slug": "thay-gan-la-mot-ky-luat",
+    "file": "thay-gan-la-mot-ky-luat.md",
+    "type": "Essay",
+    "date": "2026-07-16",
+    "readTime": "4 phút",
+    "featured": true,
+    "summary": "Một lập luận ngắn cho việc ở đủ gần với đời sống trước khi đưa ra một kết luận."
+  },
+  {
+    "title": "Ghi chép không phải là biên bản",
+    "slug": "ghi-chep-khong-phai-la-bien-ban",
+    "file": "ghi-chep-khong-phai-la-bien-ban.md",
+    "type": "Ghi chép ngắn",
+    "date": "2026-07-10",
+    "readTime": "3 phút",
+    "featured": true,
+    "summary": "Một field note tốt giữ lại cả điều đã thấy lẫn cách ta đã học để thấy nó."
+  },
+  {
+    "title": "Câu hỏi trước phương pháp",
+    "slug": "cau-hoi-truoc-phuong-phap",
+    "file": "cau-hoi-truoc-phuong-phap.md",
+    "type": "Ghi chép ngắn",
+    "date": "2026-07-03",
+    "readTime": "2 phút",
+    "featured": true,
+    "summary": "Phương pháp không thay thế được một câu hỏi đủ thật và đủ gần."
+  }
+]
