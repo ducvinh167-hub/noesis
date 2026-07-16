@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 150 1400 1040" role="img" aria-label="Noesis mark">
+  <circle cx="700" cy="520" r="350" fill="#000"/>
+  <circle cx="700" cy="520" r="250" fill="#fff"/>
+  <path d="M350 1035 700 895l350 140v115L700 1010 350 1150Z" fill="#000"/>
+</svg>
